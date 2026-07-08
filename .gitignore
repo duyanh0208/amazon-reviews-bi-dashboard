@@ -1,0 +1,29 @@
+# Data (large / regenerable)
+data/raw/
+data/processed/
+data/hf_cache/
+data/*.log
+
+# Report production (Word docs, PDFs, slides, build pipeline) — not pushed.
+# Only the distilled RESULTS.md + assets/results/ figures are kept.
+report/
+~$*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local tooling
+.claude/
+_ins/
+capture_screens.py
+
+# OS
+Thumbs.db
+.DS_Store
